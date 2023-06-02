@@ -14,7 +14,6 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe({ transform: true }));
 
   const config = app.get(ConfigService);
-
   // swagger
   const options = new DocumentBuilder()
     .setTitle('test title')
