@@ -26,3 +26,7 @@ $ pnpm start:prod
 $ cp .env.example .env
 $ docker-compose up
 ```
+
+## Api doc(swagger)
+http://127.0.0.1:3008/doc
+
