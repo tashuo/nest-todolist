@@ -1,14 +1,15 @@
 ## todolist
-simple todolist backend program with nestjs
+a simple todolist backend program with nestjs
 
-## Installation
+## Running the app
+### Installation
 
 ```bash
 $ cp .env.example .env
 $ pnpm install
+$ pnpm typeorm:run-migrations # run migrations
 ```
-
-## Running the app
+### run
 
 ```bash
 # development
@@ -19,8 +20,9 @@ $ pnpm start:dev
 $ pnpm start:prod
 ```
 
-## Running the app with docker
+## Running the app(Docker)
 
 ```bash
-# docker-compose up
+$ cp .env.example .env
+$ docker-compose up
 ```
